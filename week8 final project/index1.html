@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="portfolio" content="My portfolio website showcasing my projects and skills." />
+  <meta name="author" content="Silvio Ukoth Ukoro'o" />
+  <title>My Portfolio Website</title>
+
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles1.css" />
+</head>
+<body>
+  <!-- Header -->
+  <div class="main_header">
+    <div class="logo">
+      SiLVio-<span>UKOTH</span>
+    </div>
+    <!-- <button class="nav_toggle" id="navToggle" aria-label="Toggle Menu">☰</button> -->
+    <div class="nav" id="navbar">
+      <ul>
+        <li><a class="home" href="#home">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/services.html">Services</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+  <main class="main_section">
+    <div class="hero_section">
+      <div class="hero_text">
+        <h1>Hi, I'm Silvio Ukoth<br /> Ukoro'o,</h1>
+        <p>I'm a Frontend & WordPress Website Developer</p>
+        <div class="links">
+          <a class="link1" href="#projects">View My Work</a>
+          <a class="link2" href="#projects">More about me</a>
+        </div>               
+      </div>
+      <div class="hero_image">
+        <img src="assets/image1.png" alt="hero image" />
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-tagline">I could develop websites with latest technologies.</p>
+        </header>
+        <div class="section-body">
+          <ul class="row">
+            <li class="col-1-3"><div class="card-services"><h3 class="card-title"><a href="#">Design website with WordPress</a></h3></div></li>
+            <li class="col-1-3"><div class="card-services"><h3 class="card-title"><a href="#">HTML</a></h3></div></li>
+            <li class="col-1-3"><div class="card-services"><h3 class="card-title"><a href="#">CSS</a></h3></div></li>
+          </ul>
+          <ul class="row">
+            <li class="col-1-3"><div class="card-services"><h3 class="card-title"><a href="#">Tailwindcss</a></h3></div></li>
+            <li class="col-1-3"><div class="card-services"><h3 class="card-title"><a href="#">Bootstrap</a></h3></div></li>
+            <li class="col-1-3"><div class="card-services"><h3 class="card-title"><a href="#">Javascript</a></h3></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery_section">
+      <div class="gallery_container">
+        <h2 class="gallery_title">My Work</h2>
+        <div class="gallery_grid">
+          <div class="gallery_item"><img src="assets/imag2.png" alt="Project 1" /><h3>Web  development</h3></div>
+          <div class="gallery_item"><img src="assets/image4.png" alt="Project 2" /><h3>Food recipe</h3></div>
+          <div class="gallery_item"><img src="assets/weather.png" alt="Project 5" /><h3>Weather web Application</h3></div>
+          <div class="gallery_item"><img src="assets/wordpress.png" alt="Project 4" /><h3>WordPress web design</h3></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <hr />
+      <div class="row">
+        <div class="col-1-2">
+          <p>© 2024 By Silvio Ukoth</p>
+        </div>
+        <div class="col-1-2">
+          <ul class="footer-nav nav">
+            <li><a href="#" class="footer-nav-link">Terms of use</a></li>
+            <li><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-nav-link">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const navToggle = document.getElementById("navToggle");
+      const navbar = document.getElementById("navbar");
+
+      navToggle.addEventListener("click", function () {
+        navbar.classList.toggle("active");
+      });
+    });
+  </script> -->
+</body>
+</html>
